@@ -857,13 +857,42 @@
                     <view key="view" contentMode="scaleToFill" id="X7h-Ze-XP6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnN-rt-XER">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FnN-rt-XER" secondAttribute="height" multiplier="1:1" id="vUN-7r-Lxc"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="amy-bloom-1513795922" translatesAutoresizingMaskIntoConstraints="NO" id="dUE-qk-vXK">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Amy Bloom- White Houses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDq-Co-VYY">
+                                <rect key="frame" x="84" y="44" width="206" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RDq-Co-VYY" secondAttribute="height" multiplier="62:7" id="uxr-ZG-1d0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FnN-rt-XER" firstAttribute="leading" secondItem="RDq-Co-VYY" secondAttribute="trailing" constant="34.5" id="Y5n-9T-abN"/>
+                            <constraint firstItem="FnN-rt-XER" firstAttribute="width" secondItem="FnN-rt-XER" secondAttribute="height" multiplier="1:1" id="gpx-B7-3CY"/>
+                            <constraint firstItem="RDq-Co-VYY" firstAttribute="width" secondItem="RDq-Co-VYY" secondAttribute="height" multiplier="62:7" id="nju-5y-Kos"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wEW-MG-gSk"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tMa-qk-UMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2396" y="-674"/>
+            <point key="canvasLocation" x="2396" y="-674.21289355322347"/>
         </scene>
         <!--An American Marriage-->
         <scene sceneID="TbR-zv-d3f">
@@ -872,7 +901,36 @@
                     <view key="view" contentMode="scaleToFill" id="YPH-Px-Lbp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLO-s5-VWq">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wLO-s5-VWq" secondAttribute="height" multiplier="1:1" id="U5X-zw-xM7"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="An American Marriage " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQT-iJ-x0L">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TQT-iJ-x0L" secondAttribute="height" multiplier="62:7" id="Kjd-sV-Nt1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="an-american-marriage-1513795586" translatesAutoresizingMaskIntoConstraints="NO" id="T9d-n3-J5f">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wLO-s5-VWq" firstAttribute="width" secondItem="wLO-s5-VWq" secondAttribute="height" multiplier="1:1" id="2Sr-oP-mPh"/>
+                            <constraint firstItem="TQT-iJ-x0L" firstAttribute="width" secondItem="TQT-iJ-x0L" secondAttribute="height" multiplier="62:7" id="j3h-5n-tfy"/>
+                            <constraint firstItem="wLO-s5-VWq" firstAttribute="leading" secondItem="TQT-iJ-x0L" secondAttribute="trailing" constant="34.5" id="pQR-FB-UKu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uba-MK-X0v"/>
                     </view>
                 </viewController>
@@ -887,13 +945,42 @@
                     <view key="view" contentMode="scaleToFill" id="n9Y-4z-hNK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-Qa-l4O">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IL6-Qa-l4O" secondAttribute="height" multiplier="1:1" id="Cj1-kB-c1j"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="and-now-we-have-everything-1513795900" translatesAutoresizingMaskIntoConstraints="NO" id="Ds5-cm-n3T">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="And Now We Have Everything" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOL-eY-yXM">
+                                <rect key="frame" x="69" y="44" width="238" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XOL-eY-yXM" secondAttribute="height" multiplier="62:7" id="QMj-R5-qSK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XOL-eY-yXM" firstAttribute="width" secondItem="XOL-eY-yXM" secondAttribute="height" multiplier="62:7" id="Qrc-dI-3l0"/>
+                            <constraint firstItem="IL6-Qa-l4O" firstAttribute="leading" secondItem="XOL-eY-yXM" secondAttribute="trailing" constant="34.5" id="Zpx-Qw-V3T"/>
+                            <constraint firstItem="IL6-Qa-l4O" firstAttribute="width" secondItem="IL6-Qa-l4O" secondAttribute="height" multiplier="1:1" id="imv-ZX-oS4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="waa-Y1-8u2"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLX-Ik-pKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2396" y="-2051"/>
+            <point key="canvasLocation" x="2396" y="-2051.4242878560722"/>
         </scene>
         <!--Back Talk-->
         <scene sceneID="KXu-iE-ZL8">
@@ -902,13 +989,42 @@
                     <view key="view" contentMode="scaleToFill" id="Yfo-lZ-neW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XT3-xl-FK8">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XT3-xl-FK8" secondAttribute="height" multiplier="1:1" id="OQr-i6-TBa"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back-talk-1513795644" translatesAutoresizingMaskIntoConstraints="NO" id="L5J-F8-wqJ">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Back Talk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmx-2c-R1X">
+                                <rect key="frame" x="138" y="44" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mmx-2c-R1X" secondAttribute="height" multiplier="62:7" id="Uuh-qc-n6t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mmx-2c-R1X" firstAttribute="width" secondItem="mmx-2c-R1X" secondAttribute="height" multiplier="62:7" id="Jap-Aq-sVH"/>
+                            <constraint firstItem="XT3-xl-FK8" firstAttribute="leading" secondItem="mmx-2c-R1X" secondAttribute="trailing" constant="34.5" id="m6N-60-KWt"/>
+                            <constraint firstItem="XT3-xl-FK8" firstAttribute="width" secondItem="XT3-xl-FK8" secondAttribute="height" multiplier="1:1" id="syD-lg-Lch"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Rwx-Mc-JfV"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l8A-5D-AS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2393" y="-2723"/>
+            <point key="canvasLocation" x="2392.8000000000002" y="-2723.3883058470765"/>
         </scene>
         <!--How To Stop Time-->
         <scene sceneID="faO-iT-UaH">
@@ -917,13 +1033,42 @@
                     <view key="view" contentMode="scaleToFill" id="Ui1-JS-VPA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjV-Ur-qjK">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gjV-Ur-qjK" secondAttribute="height" multiplier="1:1" id="spw-YV-n7U"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="how-to-stop-time-1513795664" translatesAutoresizingMaskIntoConstraints="NO" id="CHH-mJ-cFZ">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="How To Stop Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLg-0f-mnw">
+                                <rect key="frame" x="111" y="44" width="152" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RLg-0f-mnw" secondAttribute="height" multiplier="62:7" id="X5p-ng-7CR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RLg-0f-mnw" firstAttribute="width" secondItem="RLg-0f-mnw" secondAttribute="height" multiplier="62:7" id="9fF-a8-8lM"/>
+                            <constraint firstItem="gjV-Ur-qjK" firstAttribute="leading" secondItem="RLg-0f-mnw" secondAttribute="trailing" constant="34.5" id="SdV-Jx-Jhk"/>
+                            <constraint firstItem="gjV-Ur-qjK" firstAttribute="width" secondItem="gjV-Ur-qjK" secondAttribute="height" multiplier="1:1" id="rxj-Hq-Hin"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xUo-YE-k48"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6yf-WA-mbP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2396" y="-4070"/>
+            <point key="canvasLocation" x="2396" y="-4070.0149925037485"/>
         </scene>
         <!--Circle-->
         <scene sceneID="llR-aY-a5q">
@@ -932,13 +1077,42 @@
                     <view key="view" contentMode="scaleToFill" id="Csk-mO-tki">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njK-Yc-6uQ">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="njK-Yc-6uQ" secondAttribute="height" multiplier="1:1" id="g2M-3b-Lyq"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circe-1513795820" translatesAutoresizingMaskIntoConstraints="NO" id="cP6-tf-Z5W">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Circle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgq-1Z-OCM">
+                                <rect key="frame" x="149" y="44" width="76" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wgq-1Z-OCM" secondAttribute="height" multiplier="62:7" id="SEK-FR-cWh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="njK-Yc-6uQ" firstAttribute="width" secondItem="njK-Yc-6uQ" secondAttribute="height" multiplier="1:1" id="IFn-Mp-Soe"/>
+                            <constraint firstItem="wgq-1Z-OCM" firstAttribute="width" secondItem="wgq-1Z-OCM" secondAttribute="height" multiplier="62:7" id="d2n-O9-TB9"/>
+                            <constraint firstItem="njK-Yc-6uQ" firstAttribute="leading" secondItem="wgq-1Z-OCM" secondAttribute="trailing" constant="34.5" id="p4L-tO-MDx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tYl-dL-RHX"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KyM-9H-cky" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2396" y="-3389"/>
+            <point key="canvasLocation" x="2396" y="-3389.0554722638685"/>
         </scene>
         <!--How To Write An Autobiographical Novel-->
         <scene sceneID="8KD-tb-XHO">
@@ -947,13 +1121,42 @@
                     <view key="view" contentMode="scaleToFill" id="71H-5m-Hbp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6X-St-zMT">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t6X-St-zMT" secondAttribute="height" multiplier="1:1" id="w4S-6w-hTk"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="how-to-write-an-autobiographical-novel-1513795939" translatesAutoresizingMaskIntoConstraints="NO" id="zrW-jX-DPF">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="How To Write An Autobiographical Novel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o32-Zp-W8J">
+                                <rect key="frame" x="60" y="43" width="254" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o32-Zp-W8J" secondAttribute="height" multiplier="62:7" id="77T-Io-VB0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o32-Zp-W8J" firstAttribute="width" secondItem="o32-Zp-W8J" secondAttribute="height" multiplier="62:7" id="E4X-bc-1G5"/>
+                            <constraint firstItem="t6X-St-zMT" firstAttribute="width" secondItem="t6X-St-zMT" secondAttribute="height" multiplier="1:1" id="Zjs-zY-5wj"/>
+                            <constraint firstItem="t6X-St-zMT" firstAttribute="leading" secondItem="o32-Zp-W8J" secondAttribute="trailing" constant="34.5" id="wBi-bs-vet"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="obo-QC-Vf1"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g99-xt-1bm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2393" y="-4772"/>
+            <point key="canvasLocation" x="2392.8000000000002" y="-4772.5637181409302"/>
         </scene>
         <!--Laura & Emma-->
         <scene sceneID="1Fw-jz-fOd">
@@ -962,13 +1165,42 @@
                     <view key="view" contentMode="scaleToFill" id="3Sz-ap-qhU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27p-XD-lk0">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="27p-XD-lk0" secondAttribute="height" multiplier="1:1" id="BVj-hz-SVI"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laura-and-emma-1513795738" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-6o-clg">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" Laura &amp; Emma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDy-6Q-Xmk">
+                                <rect key="frame" x="121" y="44" width="133" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MDy-6Q-Xmk" secondAttribute="height" multiplier="62:7" id="kP8-sl-K1r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="27p-XD-lk0" firstAttribute="width" secondItem="27p-XD-lk0" secondAttribute="height" multiplier="1:1" id="ATI-sF-uZp"/>
+                            <constraint firstItem="27p-XD-lk0" firstAttribute="leading" secondItem="MDy-6Q-Xmk" secondAttribute="trailing" constant="34.5" id="k6e-M4-71A"/>
+                            <constraint firstItem="MDy-6Q-Xmk" firstAttribute="width" secondItem="MDy-6Q-Xmk" secondAttribute="height" multiplier="62:7" id="msw-DM-bhK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="de8-7p-DPO"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQS-jb-8dN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2398" y="-5442"/>
+            <point key="canvasLocation" x="2397.5999999999999" y="-5442.7286356821596"/>
         </scene>
         <!--Sharp-->
         <scene sceneID="FED-YK-pIB">
@@ -977,13 +1209,42 @@
                     <view key="view" contentMode="scaleToFill" id="IG7-p5-dno">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6V-dk-7et">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="A6V-dk-7et" secondAttribute="height" multiplier="1:1" id="ZeO-nr-FOv"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sharp-1513795881" translatesAutoresizingMaskIntoConstraints="NO" id="TxP-NB-Xsa">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sharp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNq-RY-WT4">
+                                <rect key="frame" x="149" y="43" width="76" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lNq-RY-WT4" secondAttribute="height" multiplier="62:7" id="3V0-lb-3JG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="A6V-dk-7et" firstAttribute="leading" secondItem="lNq-RY-WT4" secondAttribute="trailing" constant="34.5" id="ClP-oH-Cwb"/>
+                            <constraint firstItem="A6V-dk-7et" firstAttribute="width" secondItem="A6V-dk-7et" secondAttribute="height" multiplier="1:1" id="fVV-w2-0jH"/>
+                            <constraint firstItem="lNq-RY-WT4" firstAttribute="width" secondItem="lNq-RY-WT4" secondAttribute="height" multiplier="62:7" id="knh-XJ-zAa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XPL-Th-tUH"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejp-72-vyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2396" y="-6129"/>
+            <point key="canvasLocation" x="2396" y="-6129.0854572713652"/>
         </scene>
         <!--A Kind of Mirraculas Paradise-->
         <scene sceneID="NQK-pn-XRl">
@@ -992,7 +1253,36 @@
                     <view key="view" contentMode="scaleToFill" id="3nh-9P-K4N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SlC-3I-3K3">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SlC-3I-3K3" secondAttribute="height" multiplier="1:1" id="cHR-Zl-aWE"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTG-f6-IgB">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YTG-f6-IgB" secondAttribute="height" multiplier="62:7" id="r1O-wB-gxg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="7AH-em-XAs">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SlC-3I-3K3" firstAttribute="width" secondItem="SlC-3I-3K3" secondAttribute="height" multiplier="1:1" id="IJH-Nf-cZN"/>
+                            <constraint firstItem="SlC-3I-3K3" firstAttribute="leading" secondItem="YTG-f6-IgB" secondAttribute="trailing" constant="34.5" id="M1O-Gv-6d2"/>
+                            <constraint firstItem="YTG-f6-IgB" firstAttribute="width" secondItem="YTG-f6-IgB" secondAttribute="height" multiplier="62:7" id="gHX-ep-ON3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="oXO-NT-DJa"/>
                     </view>
                 </viewController>
@@ -1695,7 +1985,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ijd-D7-fEc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOf-CC-7PG">
+                                <rect key="frame" x="315" y="32" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZOf-CC-7PG" secondAttribute="height" multiplier="1:1" id="VdG-1D-azK"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOu-0N-1J6">
+                                <rect key="frame" x="95" y="56" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pOu-0N-1J6" secondAttribute="height" multiplier="62:7" id="L4j-pu-PU3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="v4e-hf-2Va">
+                                <rect key="frame" x="16" y="85" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZOf-CC-7PG" firstAttribute="width" secondItem="ZOf-CC-7PG" secondAttribute="height" multiplier="1:1" id="DWs-A4-ETN"/>
+                            <constraint firstItem="pOu-0N-1J6" firstAttribute="width" secondItem="pOu-0N-1J6" secondAttribute="height" multiplier="62:7" id="fNo-RW-Omo"/>
+                            <constraint firstItem="ZOf-CC-7PG" firstAttribute="leading" secondItem="pOu-0N-1J6" secondAttribute="trailing" constant="34.5" id="qYC-b7-5jb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OLS-GY-abY"/>
                     </view>
                 </viewController>
@@ -1710,7 +2029,36 @@
                     <view key="view" contentMode="scaleToFill" id="QsY-tj-Hbk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fi-h4-d3V">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8fi-h4-d3V" secondAttribute="height" multiplier="1:1" id="zta-JP-xMr"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SlO-EU-0I7">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SlO-EU-0I7" secondAttribute="height" multiplier="62:7" id="fOn-3G-lKE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="NAb-yn-ZQD">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SlO-EU-0I7" firstAttribute="width" secondItem="SlO-EU-0I7" secondAttribute="height" multiplier="62:7" id="3Ir-Ht-Ay2"/>
+                            <constraint firstItem="8fi-h4-d3V" firstAttribute="leading" secondItem="SlO-EU-0I7" secondAttribute="trailing" constant="34.5" id="JEV-Yr-63M"/>
+                            <constraint firstItem="8fi-h4-d3V" firstAttribute="width" secondItem="8fi-h4-d3V" secondAttribute="height" multiplier="1:1" id="dZ8-h3-Q2m"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Sgt-j9-Gl2"/>
                     </view>
                 </viewController>
@@ -1725,7 +2073,36 @@
                     <view key="view" contentMode="scaleToFill" id="Xto-h4-Tn3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne2-7Z-IDz">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ne2-7Z-IDz" secondAttribute="height" multiplier="1:1" id="XJQ-r0-P9s"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSy-W6-O6K">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MSy-W6-O6K" secondAttribute="height" multiplier="62:7" id="EdN-Nn-eB2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="oVT-gq-cuQ">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ne2-7Z-IDz" firstAttribute="leading" secondItem="MSy-W6-O6K" secondAttribute="trailing" constant="34.5" id="Mn8-GH-48p"/>
+                            <constraint firstItem="ne2-7Z-IDz" firstAttribute="width" secondItem="ne2-7Z-IDz" secondAttribute="height" multiplier="1:1" id="m1A-F1-twS"/>
+                            <constraint firstItem="MSy-W6-O6K" firstAttribute="width" secondItem="MSy-W6-O6K" secondAttribute="height" multiplier="62:7" id="qmA-4D-1fU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qQO-iE-sUg"/>
                     </view>
                 </viewController>
@@ -1740,7 +2117,36 @@
                     <view key="view" contentMode="scaleToFill" id="r6f-1N-HQl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKE-24-Q0c">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xKE-24-Q0c" secondAttribute="height" multiplier="1:1" id="Lax-Z5-2ux"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy1-Pv-4GA">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Sy1-Pv-4GA" secondAttribute="height" multiplier="62:7" id="CUB-iu-pKd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="b0S-S1-1vd">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xKE-24-Q0c" firstAttribute="leading" secondItem="Sy1-Pv-4GA" secondAttribute="trailing" constant="34.5" id="7aB-Lg-pjL"/>
+                            <constraint firstItem="Sy1-Pv-4GA" firstAttribute="width" secondItem="Sy1-Pv-4GA" secondAttribute="height" multiplier="62:7" id="Q6l-Ll-Ljb"/>
+                            <constraint firstItem="xKE-24-Q0c" firstAttribute="width" secondItem="xKE-24-Q0c" secondAttribute="height" multiplier="1:1" id="bF4-sJ-8L5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZD6-TW-OA8"/>
                     </view>
                 </viewController>
@@ -1755,7 +2161,36 @@
                     <view key="view" contentMode="scaleToFill" id="dcG-jU-MZT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-8u-Snb">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="B6D-8u-Snb" secondAttribute="height" multiplier="1:1" id="tVO-t5-1B1"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHG-0o-6Kw">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JHG-0o-6Kw" secondAttribute="height" multiplier="62:7" id="c7N-Fq-vsf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="qAE-y2-3p9">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JHG-0o-6Kw" firstAttribute="width" secondItem="JHG-0o-6Kw" secondAttribute="height" multiplier="62:7" id="efd-Bb-5HG"/>
+                            <constraint firstItem="B6D-8u-Snb" firstAttribute="leading" secondItem="JHG-0o-6Kw" secondAttribute="trailing" constant="34.5" id="gsd-ZS-zcJ"/>
+                            <constraint firstItem="B6D-8u-Snb" firstAttribute="width" secondItem="B6D-8u-Snb" secondAttribute="height" multiplier="1:1" id="lSE-y0-OPR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lmR-YP-WZY"/>
                     </view>
                 </viewController>
@@ -1770,7 +2205,36 @@
                     <view key="view" contentMode="scaleToFill" id="KWB-sP-J8L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqq-it-nQv">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Tqq-it-nQv" secondAttribute="height" multiplier="1:1" id="7a3-db-aCY"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-8I-6hs">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lo5-8I-6hs" secondAttribute="height" multiplier="62:7" id="7Pb-w2-sI9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="PBq-oW-XX5">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tqq-it-nQv" firstAttribute="width" secondItem="Tqq-it-nQv" secondAttribute="height" multiplier="1:1" id="83w-m7-S1x"/>
+                            <constraint firstItem="Tqq-it-nQv" firstAttribute="leading" secondItem="lo5-8I-6hs" secondAttribute="trailing" constant="34.5" id="JMf-3t-fsN"/>
+                            <constraint firstItem="lo5-8I-6hs" firstAttribute="width" secondItem="lo5-8I-6hs" secondAttribute="height" multiplier="62:7" id="cKy-PQ-lsX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rBp-aa-qvh"/>
                     </view>
                 </viewController>
@@ -1785,7 +2249,36 @@
                     <view key="view" contentMode="scaleToFill" id="PB4-yH-D2n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgJ-RS-sXA">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VgJ-RS-sXA" secondAttribute="height" multiplier="1:1" id="SfV-Vz-ZeJ"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkv-9u-BeT">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zkv-9u-BeT" secondAttribute="height" multiplier="62:7" id="5cl-eY-qfL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="oSy-6n-FZ2">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VgJ-RS-sXA" firstAttribute="leading" secondItem="zkv-9u-BeT" secondAttribute="trailing" constant="34.5" id="ToG-rn-PnF"/>
+                            <constraint firstItem="zkv-9u-BeT" firstAttribute="width" secondItem="zkv-9u-BeT" secondAttribute="height" multiplier="62:7" id="W8e-bh-pi4"/>
+                            <constraint firstItem="VgJ-RS-sXA" firstAttribute="width" secondItem="VgJ-RS-sXA" secondAttribute="height" multiplier="1:1" id="lyZ-Ls-yG4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pkk-Y7-6Jw"/>
                     </view>
                 </viewController>
@@ -1800,7 +2293,36 @@
                     <view key="view" contentMode="scaleToFill" id="qK0-xj-DIo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ac8-GA-M5E">
+                                <rect key="frame" x="315" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ac8-GA-M5E" secondAttribute="height" multiplier="1:1" id="zKj-0X-5kj"/>
+                                </constraints>
+                                <state key="normal" image="home-icon">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This Will Be My Undoing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxO-k9-OE4">
+                                <rect key="frame" x="95" y="44" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jxO-k9-OE4" secondAttribute="height" multiplier="62:7" id="sbx-3p-6rL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="this-will-be-my-undoing-1513795492" translatesAutoresizingMaskIntoConstraints="NO" id="eBv-s8-eiH">
+                                <rect key="frame" x="16" y="73" width="155" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ac8-GA-M5E" firstAttribute="leading" secondItem="jxO-k9-OE4" secondAttribute="trailing" constant="34.5" id="Qvj-gZ-Drg"/>
+                            <constraint firstItem="jxO-k9-OE4" firstAttribute="width" secondItem="jxO-k9-OE4" secondAttribute="height" multiplier="62:7" id="UfE-pR-1do"/>
+                            <constraint firstItem="Ac8-GA-M5E" firstAttribute="width" secondItem="Ac8-GA-M5E" secondAttribute="height" multiplier="1:1" id="sl7-ah-BqX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QTR-yk-4HV"/>
                     </view>
                 </viewController>
@@ -1844,7 +2366,7 @@
         <image name="what-are-we-doing-here-1513795607" width="980" height="1470"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6zM-m5-DKw"/>
+        <segue reference="umo-7T-jc5"/>
         <segue reference="w7Y-RW-mUL"/>
         <segue reference="guD-SZ-tHc"/>
         <segue reference="Qfh-U9-cze"/>
